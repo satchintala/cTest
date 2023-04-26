@@ -16,5 +16,6 @@ describe("Test Conatct Us form via WebdriverUni", () => {
     cy.get('[name="last_name"]').type("Chintala");
     cy.get('[name="message"]').type("This is the Contact form");
     cy.get('[type = "submit"]').click();
+    //test
   });
 });
